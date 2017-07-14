@@ -41,6 +41,22 @@ decrement(4096);
 
 // Create an array that contains the names of American Presidents. Loop over that array with a for loop, and use string concatenation with console.log() to output the order and name of each President (see example below).
 
+
+//this is an array that 
+let presidentsss = ["#1 Georgie", "#2 Tommy", "#3 Bertha"];
+for (let i = 0; i < presidentsss.length; i++) {
+	console.log("President", presidentsss[i]);
+}
+
+let president = ["#1 Georgie", "#2 Tommy", "#3 Bertha"];
+president.forEach(function(pres, index) {
+	console.log("President", pres, index+1);
+});
+	
+
+
+
+
 let presidents = [];
 	presidents.push({
 		number: "#1", 
@@ -74,11 +90,13 @@ let presidents = [];
 	});
 	
 
-presidents.forEach(function(item){
-
-	console.log("President", `${item.number}: ${item.name} was president ${item.dates}`);
+presidents.forEach(function(item, index){
+	console.log("President", `${item.number} ${index+1}: ${item.name} was president ${item.dates}`);
 	
 });
+
+
+
 
 
 

@@ -96,6 +96,26 @@ presidents.forEach(function(item, index){
 });
 
 
+let antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (let prop in antSpecies) {
+  // console.log(`antSpecies.${prop}`);
+  console.log(`${prop}`);
+}
+
+
 
 
 
